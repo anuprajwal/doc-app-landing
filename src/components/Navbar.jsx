@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
+import { Sun, Moon } from 'lucide-react';
 
 export default function Navbar() {
   const [darkMode, setDarkMode] = useState(false);
@@ -68,7 +69,7 @@ export default function Navbar() {
           className="p-1.5 sm:p-2 rounded-full border border-[var(--card-border)] hover:bg-[var(--card-bg)] transition text-base sm:text-lg"
           title="Toggle Dark/Light Mode"
         >
-          {darkMode ? '🌙' : '☀️'}
+          {darkMode ? <Moon className="w-5 h-5" /> : <Sun className="w-5 h-5" />}
         </button>
 
         <a 

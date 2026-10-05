@@ -64,6 +64,13 @@ const Doctors = () => {
           <h2 className="text-2xl sm:text-4xl md:text-5xl font-extrabold mt-1 sm:mt-2 mb-2 sm:mb-4 tracking-tight" style={{ color: 'var(--text-main)' }}>
             How doctors benefit
           </h2>
+          <a href="https://auth.docapp.co.in/doctor/login" target="_blank" rel="noopener noreferrer">
+            <button
+              className="mt-2 sm:mt-4 px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold text-sm sm:text-base bg-[#3b82f6] text-white hover:bg-[#2563eb] transition-colors duration-200"
+            >
+              Login
+            </button>
+          </a>
           <p className="text-xs sm:text-base md:text-lg" style={{ color: 'var(--text-muted)' }}>
             Join 400+ doctors already growing their practice on India's most connected healthcare platform.
           </p>

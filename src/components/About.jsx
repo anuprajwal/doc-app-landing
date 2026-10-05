@@ -95,7 +95,7 @@ const About = () => {
             </div>
 
             {/* Bottom Workstation CTA */}
-            <div 
+            {/* <div 
               className="pt-4 sm:pt-6 mt-6 sm:mt-8 border-t flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3"
               style={{ borderColor: 'var(--card-border)' }}
             >
@@ -109,7 +109,7 @@ const About = () => {
                 <span>Sign In</span>
                 <ArrowRight className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
               </a>
-            </div>
+            </div> */}
           </div>
 
         </div>

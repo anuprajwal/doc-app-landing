@@ -64,6 +64,13 @@ const Hospitals = () => {
           <h2 className="text-2xl sm:text-4xl md:text-5xl font-extrabold mt-1 sm:mt-2 mb-2 sm:mb-4 tracking-tight" style={{ color: 'var(--text-main)' }}>
             How hospitals benefit
           </h2>
+          <a href="https://auth.docapp.co.in/hospital/login" target="_blank" rel="noopener noreferrer">
+            <button
+              className="mt-2 sm:mt-4 px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold text-sm sm:text-base bg-[#3b82f6] text-white hover:bg-[#2563eb] transition-colors duration-200"
+            >
+              Login
+            </button>
+          </a>
           <p className="text-xs sm:text-base md:text-lg" style={{ color: 'var(--text-muted)' }}>
             Already live across 45+ hospitals — built to bring in patients without adding to your admin load.
           </p>
